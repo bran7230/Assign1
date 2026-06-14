@@ -57,7 +57,11 @@ public class SettingsFragment extends Fragment {
         intent.setType("text/plain");
         intent.putExtra(Intent.EXTRA_TEXT, "Check out WeatherNow, the best weather app! https://weathernow.com");
         
-        startActivity(Intent.createChooser(intent, "Share via"));
+        try {
+            startActivity(Intent.createChooser(intent, "Share via"));
+        } catch (android.content.ActivityNotFoundException ex) {
+            Toast.makeText(getContext(), "No app available to share.", Toast.LENGTH_SHORT).show();
+        }
     }
 
     @Override

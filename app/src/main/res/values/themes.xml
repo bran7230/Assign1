@@ -6,6 +6,21 @@
         <item name="colorSecondary">@color/accent_emerald</item>
         <item name="android:windowBackground">@color/background_soft</item>
         <item name="android:statusBarColor">@color/primary_brand</item>
+
+        <!-- Custom text appearances per rubric Part 1.1 -->
+        <item name="textAppearanceHeadlineMedium">@style/CustomHeadlineMedium</item>
+        <item name="textAppearanceBodyMedium">@style/CustomBodyMedium</item>
+    </style>
+
+    <style name="CustomHeadlineMedium" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textColor">@color/text_slate</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="CustomBodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/text_slate</item>
+        <item name="android:textSize">16sp</item>
     </style>
 
     <style name="Theme.Assign1" parent="Base.Theme.Assign1" />

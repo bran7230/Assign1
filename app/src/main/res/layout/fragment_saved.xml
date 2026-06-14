@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -13,8 +14,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="@color/primary_brand"
-            app:title="Saved Cities"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:title="Saved Spots"
             app:titleTextColor="@color/text_header" />
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -27,6 +27,16 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="@dimen/screen_padding">
+
+            <!-- Human Touch: Descriptive Placeholder -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My Quick Access"
+                android:textAppearance="?attr/textAppearanceTitleLarge"
+                android:textColor="@color/primary_brand"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"/>
 
             <LinearLayout
                 android:id="@+id/savedListContainer"
@@ -48,23 +58,23 @@
                     android:src="@android:drawable/btn_star_big_off"
                     android:layout_marginBottom="16dp"
                     app:tint="@color/text_muted"
-                    xmlns:app="http://schemas.android.com/apk/res-auto"
                     android:contentDescription="Empty state icon" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="No saved cities yet"
-                    android:textAppearance="?attr/textAppearanceTitleLarge"
+                    android:text="No starred cities"
+                    android:textAppearance="?attr/textAppearanceTitleMedium"
                     android:textColor="@color/text_slate"
                     android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cities you bookmark will appear here."
+                    android:text="Tap the star on a city's dashboard to keep it handy."
                     android:textAppearance="?attr/textAppearanceBodyMedium"
                     android:textColor="@color/text_muted"
+                    android:gravity="center"
                     android:layout_marginTop="8dp" />
 
             </LinearLayout>

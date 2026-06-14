@@ -14,7 +14,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="@color/primary_brand"
-            app:title="Search Cities"
+            app:title="WeatherNow"
             app:titleTextColor="@color/text_header" />
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -24,6 +24,24 @@
         android:orientation="vertical"
         android:padding="@dimen/screen_padding">
 
+        <!-- Human Touch: Greeting -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Good morning!"
+            android:textAppearance="?attr/textAppearanceTitleLarge"
+            android:textColor="@color/primary_brand"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ready for your next adventure?"
+            android:textAppearance="?attr/textAppearanceBodyMedium"
+            android:textColor="@color/text_muted"
+            android:layout_marginBottom="16dp"/>
+
         <SearchView
             android:id="@+id/searchView"
             android:layout_width="match_parent"
@@ -32,7 +50,7 @@
             android:iconifiedByDefault="false"
             android:layout_marginBottom="@dimen/item_spacing"
             android:background="@color/white"
-            android:elevation="0dp"/>
+            android:elevation="2dp"/>
 
         <ScrollView
             android:layout_width="match_parent"
@@ -51,7 +69,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/item_spacing"
                     app:cardCornerRadius="@dimen/card_radius"
-                    app:cardElevation="0dp"
+                    app:cardElevation="2dp"
                     app:strokeWidth="0dp"
                     android:backgroundTint="@color/white">
 
@@ -109,7 +127,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/item_spacing"
                     app:cardCornerRadius="@dimen/card_radius"
-                    app:cardElevation="0dp"
+                    app:cardElevation="2dp"
                     app:strokeWidth="0dp"
                     android:backgroundTint="@color/white">
 
@@ -167,7 +185,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/item_spacing"
                     app:cardCornerRadius="@dimen/card_radius"
-                    app:cardElevation="0dp"
+                    app:cardElevation="2dp"
                     app:strokeWidth="0dp"
                     android:backgroundTint="@color/white">
 
@@ -225,7 +243,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/item_spacing"
                     app:cardCornerRadius="@dimen/card_radius"
-                    app:cardElevation="0dp"
+                    app:cardElevation="2dp"
                     app:strokeWidth="0dp"
                     android:backgroundTint="@color/white">
 
@@ -283,7 +301,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/item_spacing"
                 app:cardCornerRadius="@dimen/card_radius"
-                app:cardElevation="0dp"
+                app:cardElevation="2dp"
                 app:strokeWidth="0dp"
                 android:backgroundTint="@color/white">
 
