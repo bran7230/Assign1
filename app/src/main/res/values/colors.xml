@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_brand">#4C1D95</color> <!-- Deep Purple -->
+    <color name="secondary_brand">#6D28D9</color> <!-- Lighter Purple -->
+    <color name="accent_emerald">#10B981</color> <!-- Emerald Green -->
+    <color name="background_soft">#F8FAFC</color> <!-- Soft White -->
+    <color name="text_header">#F1F5F9</color> <!-- Off-white for text on dark backgrounds -->
+    <color name="text_slate">#1E293B</color> <!-- Main text -->
+    <color name="text_muted">#64748B</color> <!-- Subtitles -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#FF000000</color>
+</resources>
