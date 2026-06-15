@@ -7,7 +7,6 @@
         <item name="android:windowBackground">@color/background_soft</item>
         <item name="android:statusBarColor">@color/primary_brand</item>
 
-        <!-- Custom text appearances per rubric Part 1.1 -->
         <item name="textAppearanceHeadlineMedium">@style/CustomHeadlineMedium</item>
         <item name="textAppearanceBodyMedium">@style/CustomBodyMedium</item>
     </style>

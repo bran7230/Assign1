@@ -31,7 +31,7 @@ public class SettingsFragment extends Fragment {
 
     private void sendFeedback() {
         Intent intent = new Intent(Intent.ACTION_SENDTO);
-        intent.setData(Uri.parse("mailto:support@weathernow.com"));
+        intent.setData(Uri.parse("mailto:200608789@student.georgianc.on.ca"));
         intent.putExtra(Intent.EXTRA_SUBJECT, "Feedback for WeatherNow App");
         
         try {
@@ -43,7 +43,7 @@ public class SettingsFragment extends Fragment {
 
     private void viewGitHub() {
         Intent intent = new Intent(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("https://github.com/example/weathernow"));
+        intent.setData(Uri.parse("https://github.com/bran7230/Assign1"));
         
         if (intent.resolveActivity(getActivity().getPackageManager()) != null) {
             startActivity(intent);

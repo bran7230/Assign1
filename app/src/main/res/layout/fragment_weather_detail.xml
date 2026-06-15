@@ -54,9 +54,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Bookmark"
             android:src="@android:drawable/star_off"
-            app:tint="@color/text_header"
-            android:contentDescription="Bookmark" />
+            app:tint="@color/text_header" />
 
         <ImageView
             android:id="@+id/ivWeatherIcon"
@@ -104,10 +104,10 @@
                         android:textSize="16sp" />
 
                     <LinearLayout
-                        android:layout_width="wrap_content"
+                        android:layout_width="137dp"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:gravity="bottom">
+                        android:gravity="bottom"
+                        android:orientation="horizontal">
 
                         <TextView
                             android:id="@+id/tvTempC"
@@ -120,18 +120,19 @@
 
                         <TextView
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="29dp"
+                            android:layout_marginBottom="35dp"
                             android:text="°"
                             android:textColor="@color/text_slate"
-                            android:textSize="40sp"
-                            android:layout_marginBottom="35dp"/>
+                            android:textSize="40sp" />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginBottom="25dp"
                             android:text="C"
                             android:textColor="@color/text_slate"
-                            android:textSize="32sp"
-                            android:layout_marginBottom="25dp"/>
+                            android:textSize="32sp" />
                     </LinearLayout>
 
                     <TextView
@@ -326,9 +327,10 @@
                             android:textStyle="bold" />
 
                         <LinearLayout
-                            android:layout_width="wrap_content"
+                            android:layout_width="36dp"
                             android:layout_height="wrap_content"
                             android:orientation="vertical">
+
                             <TextView
                                 android:id="@+id/tvUvIndex"
                                 android:layout_width="wrap_content"
@@ -337,9 +339,10 @@
                                 android:textColor="@color/text_slate"
                                 android:textSize="28sp"
                                 android:textStyle="bold" />
+
                             <TextView
                                 android:id="@+id/tvUvLabel"
-                                android:layout_width="wrap_content"
+                                android:layout_width="37dp"
                                 android:layout_height="wrap_content"
                                 android:text="Low"
                                 android:textColor="@color/accent_emerald"

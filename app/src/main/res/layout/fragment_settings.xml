@@ -87,7 +87,6 @@
                         android:textColor="@color/text_muted"
                         android:layout_marginBottom="16dp"/>
 
-                    <!-- Feedback -->
                     <LinearLayout
                         android:id="@+id/btnFeedback"
                         android:layout_width="match_parent"
@@ -112,7 +111,6 @@
                             android:textColor="@color/text_slate"/>
                     </LinearLayout>
 
-                    <!-- GitHub -->
                     <LinearLayout
                         android:id="@+id/btnGitHub"
                         android:layout_width="match_parent"
@@ -137,7 +135,6 @@
                             android:textColor="@color/text_slate"/>
                     </LinearLayout>
 
-                    <!-- Share -->
                     <LinearLayout
                         android:id="@+id/btnShare"
                         android:layout_width="match_parent"
